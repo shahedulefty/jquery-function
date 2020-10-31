@@ -1,0 +1,63 @@
+/*Global CSS*/
+
+body{
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.title{
+	background: red;
+	color: white;
+	text-align: center;
+}
+.paragraph{
+	background: cyan;
+	color: white;
+	display: none;
+	text-align: center;
+}
+.box{
+	background: red;
+	width:100px;
+	height:100px;
+	position:absolute;
+}
+.box-2{
+	background: black;
+	width:100px;
+	height:100px;
+	position:absolute;
+}
+.box-3{
+	background: yellow;
+	width:100px;
+	height:100px;
+	position:absolute;
+}
+.panel, .flip {
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 18px;
+	text-align: center;
+	background-color: #555;
+	color: white;
+	border: solid 1px #666;
+	border-radius: 3px;
+}
+.panel {
+  	padding: 50px;
+  	display: none;
+}
+.j-paragraph,{
+	font-size: 18px;
+	font-weight: 400;
+	color: blue;
+}
+.j-paragraph-2{
+	font-size: 20px;
+	font-weight: 600;
+	color: red;
+}
+.j-paragraph-3{
+	font-size: 25px;
+	font-weight: 700;
+	color: orange;
+}
